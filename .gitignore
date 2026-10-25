@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# CMake build output
+/build/
+/dist/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Compiled binaries
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+
+# IDE
+.vs/
